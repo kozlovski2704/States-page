@@ -8,6 +8,7 @@ p {
 }
 .header-geo_slider {
     text-align: center;
+    margin-bottom: 50px;
 }
 .header-geo_title {
     display: flex;
