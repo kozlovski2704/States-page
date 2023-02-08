@@ -1,3 +1,8 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
 p {
     margin: 0;
 }
@@ -10,9 +15,15 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
+.header-geo_slider p{
+    width: 100%;
+    max-width: 770px;
+    margin: auto;
+}
 .header-geo_title {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .header-geo_title-count {
     text-align: center;
@@ -37,6 +48,19 @@ p {
     padding: 14px 25px;
     border: 1px solid #c4f1d7;
 }
+.shipping_tittle-text p{
+    margin-bottom: 20px;
+}
+.shipping_tittle-text p:last-child{
+    margin-bottom: 0;
+}
+.shipping_img {
+    width: 100%;
+    text-align: right;
+}
+.shipping_img img {
+    max-width: 500px;
+}
 .price {
     width: 250px;
 }
@@ -47,16 +71,21 @@ p {
     font-weight: bold;
 }
 .footer-geo-title {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 64%;
     margin-bottom: 50px;
     text-align: right;
-
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.footer-geo-title_text {
+    width: 50%;
+    float: right;
 }
 .footer-geo-border {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .border-title{
     width: 15%;
@@ -81,4 +110,10 @@ p {
         width: 100%;
         margin-bottom: 20px;
     }
+}
+
+.slider {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 }
