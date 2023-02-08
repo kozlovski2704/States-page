@@ -1,0 +1,83 @@
+p {
+    margin: 0;
+}
+.section-geo {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-geo_slider {
+    text-align: center;
+}
+.header-geo_title {
+    display: flex;
+    justify-content: space-between;
+}
+.header-geo_title-count {
+    text-align: center;
+}
+.header-geo_title-count:first-child{
+    text-align: left;
+}
+.header-geo_title-count:last-child{
+    text-align: right;
+}
+.title-count {
+    font-size: 17px;
+    font-weight: 900;
+}
+.shipping {
+    display: flex;
+    justify-content: space-between;
+}
+.shipping_tittle .price {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 25px;
+    border: 1px solid #c4f1d7;
+}
+.price {
+    width: 250px;
+}
+.price{
+    margin-bottom: 20px;
+}
+.price-order {
+    font-weight: bold;
+}
+.footer-geo-title {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 64%;
+    margin-bottom: 50px;
+    text-align: right;
+
+}
+.footer-geo-border {
+    display: flex;
+    justify-content: space-between;
+}
+.border-title{
+    width: 15%;
+    padding: 50px 50px 25px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-decoration: none;
+}
+.border-title img {
+    width: 20%;
+}
+@media only screen and (max-width: 1003px) {
+    .shipping_img {
+        display: none;
+    }
+    .footer-geo-border:nth-child() {
+        flex-wrap: wrap;
+    }
+    .border-title {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
